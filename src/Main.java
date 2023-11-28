@@ -5,5 +5,9 @@ public class Main {
         Stack<Integer> stack = new Stack<>();
         stack.push(20);
         stack.push(30);
+        
+        System.out.println("Top element in stack: " + stack.peek());
+        stack.pop();
+        System.out.println("Top element in stack after pop: " + stack.peek());
     }
 }
