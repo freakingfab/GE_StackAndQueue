@@ -1,3 +1,4 @@
+import com.bridgelabz.stackandqueue.Queue;
 import com.bridgelabz.stackandqueue.Stack;
 public class Main {
     public static void main(String[] args) {
@@ -9,5 +10,10 @@ public class Main {
         System.out.println("Top element in stack: " + stack.peek());
         stack.pop();
         System.out.println("Top element in stack after pop: " + stack.peek());
+
+        System.out.println("Implementing Queue using Linked List");
+        Queue<Integer> queue = new Queue();
+        queue.enqueue(20);
+        queue.enqueue(30);
     }
 }
