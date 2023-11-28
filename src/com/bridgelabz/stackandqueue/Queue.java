@@ -24,4 +24,17 @@ public class Queue<T> {
     public void enqueue(T data) {
         queue.add(data);
     }
+
+    /*
+        @desc: dequeue the first element in queue
+        @params: none
+        @return: T
+     */
+    public T dequeue() {
+        if (queue.isEmpty()) {
+            System.out.println("Stack is empty, unable to pop");
+            return null;
+        }
+        return queue.removeFirst();
+    }
 }

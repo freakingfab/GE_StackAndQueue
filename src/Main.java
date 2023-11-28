@@ -15,5 +15,6 @@ public class Main {
         Queue<Integer> queue = new Queue();
         queue.enqueue(20);
         queue.enqueue(30);
+        queue.dequeue();
     }
 }
